@@ -9,7 +9,7 @@ const LandingPage = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       navigate("/offerpage");
-    }, 4000);
+    }, 2000);
     return () => clearTimeout(timer);
   }, [navigate]);
 

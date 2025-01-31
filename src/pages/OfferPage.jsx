@@ -35,8 +35,8 @@ const OfferPage = () => {
         onClick={handleback}
         className="absolute top-8 sm:top-12 left-8 sm:left-12 text-white text-3xl lg:text-4xl"
       />
-      <div className="w-[90%] sm:w-full max-w-lg bg-[#DDE6E7] p-4 sm:p-8 rounded-lg shadow-lg">
-        <div className="flex justify-center mb-6">
+      <div className="w-[83%] sm:w-full max-w-lg bg-[#DDE6E7] p-4 sm:p-8 rounded-lg shadow-lg">
+        <div className="flex justify-center mb-4 sm:mb-6">
           <img
             src={logo} // Replace with your actual logo path
             alt="MobileMinds Logo"
@@ -44,7 +44,7 @@ const OfferPage = () => {
           />
         </div>
 
-        <h2 className="text-3xl font-bold text-center text-gray-800">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-800">
           Exclusive Offer Just For You!
         </h2>
         <p className="mt-2 sm:mt-4 text-center text-gray-600">
@@ -67,7 +67,7 @@ const OfferPage = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="mt-2 p-2 w-full  rounded-[8px] bg-white text-[#0A0F24]"
+              className="mt-1 sm:mt-2 p-[6px] sm:p-2 w-full  rounded-[8px] bg-white text-[#0A0F24]"
               placeholder="Your Name"
               required
             />
@@ -87,7 +87,7 @@ const OfferPage = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="mt-2 p-2 w-full  rounded-[8px] bg-white text-[#0A0F24]"
+              className="mt-1 sm:mt-2 p-[6px] sm:p-2 w-full  rounded-[8px] bg-white text-[#0A0F24]"
               placeholder="Your Email"
               required
             />
@@ -107,7 +107,7 @@ const OfferPage = () => {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              className="mt-2 p-2 w-full  rounded-[8px] bg-white text-[#0A0F24]"
+              className="mt-1 sm:mt-2 p-[6px] sm:p-2 w-full  rounded-[8px] bg-white text-[#0A0F24]"
               placeholder="Your Phone Number"
               required
             />
@@ -116,7 +116,7 @@ const OfferPage = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="mt-6 bg-[#35044F] hover:bg-[#440B6B] px-6 py-3 rounded-lg text-white font-semibold w-full"
+            className="mt-6 bg-[#35044F] hover:bg-[#440B6B] px-6 py-2 sm:py-3 rounded-lg text-white font-semibold w-full"
           >
             Claim Offer
           </button>
